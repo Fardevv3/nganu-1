@@ -1,5 +1,5 @@
 {
-  "name": "nganu",
+  "name": "whastapp bot",
   "version": "1.2.50",
   "description": "Multi Device WhatsApp Bot ",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "botwa",
     "bot-whatsapp-md"
   ],
-  "author": "Gimenz",
+  "author": "Fdev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Gimenz/nganu/issues"
