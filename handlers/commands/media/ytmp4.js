@@ -11,7 +11,7 @@ module.exports = {
         try {
             m.reply('proses')
             const video = await YT.mp4(url)
-            let caption = `✅ *YouTube Downloader*\n\n` +
+            let caption = `*YouTube Downloader*\n\n` +
                 `*Title :* ${video.title}\n` +
                 `*Channel :* ${video.channel}\n` +
                 `*Published :* ${video.date}\n` +

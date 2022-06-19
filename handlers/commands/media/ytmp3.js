@@ -18,7 +18,7 @@ module.exports = {
                 const search = await YT.searchTrack(videoID)
                 const metadata = search.filter(x => x.id == videoID)[0]
                 const dl = await YT.mp3(metadata.url, { Album: metadata.album, Artist: metadata.artist, Image: metadata.image, Title: metadata.title })
-                let caption = `✅ *Music Downloader*\n` +
+                let caption = `*Music Downloader*\n` +
                     `*Title :* ${metadata.title}\n` +
                     `*Artist :* ${metadata.artist}\n` +
                     `*Durasi :* ${metadata.duration.label}\n` +
@@ -36,7 +36,7 @@ module.exports = {
                     dl.add(obj)
                 }
                 dl = [...dl][0]
-                let caption = `✅ *YouTube Mp3 Downloader*\n\n` +
+                let caption = `*YouTube Mp3 Downloader*\n\n` +
                     `*Title :* ${dl.meta.title}\n` +
                     `*Channel :* ${dl.meta.channel}\n` +
                     `*Durasi :* ${secondsConvert(dl.meta.seconds)}\n` +
