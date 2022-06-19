@@ -1,5 +1,5 @@
 module.exports = {
-    cmd: ['qris'],
+    cmd: ['bot'],
     disabled: true,
     exec: async (m, client, { args }) => {
         try {
